@@ -199,7 +199,7 @@ def main():
             print(data_to_show)
             start_index = end_index
 
-        restart = input('\nWould you like to restart? Please Enter yes or no.\n')
+        restart = input('\nWould you like to restart? Enter yes or no.\n')
         if restart.lower() != 'yes':
             break
 
